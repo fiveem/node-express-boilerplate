@@ -1,5 +1,11 @@
 # Node Express Boilerplate
 
+Simple Node boilerplate. It contains:
+- [Express](https://expressjs.com)
+- [Mocha](https://mochajs.org)
+- [Supertest](https://github.com/visionmedia/supertest)
+- [Nodemon](https://nodemon.io)
+
 ## Install
 
 ```
