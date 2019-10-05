@@ -9,8 +9,8 @@ Simple Node boilerplate. It contains:
 ## Install
 
 ```
-npx booplate node-express-boilerplate
-cd node-express-boilerplate
+npx booplate node-express-boilerplate my-app
+cd my-app
 npm install
 npm run start
 ```
