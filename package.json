@@ -1,0 +1,37 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Express Boilerplate",
+  "keywords": [
+    "node",
+    "express",
+    "boilerplate"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiveem/node-express-boilerplate.git"
+  },
+  "author": "Razvan Muntian <muntianrazvan@gmail.com> (https://razvan.muntian.ro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveem/node-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/fiveem/node-express-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.3",
+    "supertest": "^4.0.2"
+  }
+}
